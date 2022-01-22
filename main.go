@@ -7,7 +7,6 @@ import (
 
  
 	"github.com/jbabinec1/hello-world-twirp/paperclipserver"
-	//"github.com/jbabinec1/hello-world-twirp/pkg/rpc"
 	"github.com/jbabinec1/hello-world-twirp/rpc"
 
 )
@@ -18,5 +17,5 @@ func main() {
 	server := paperclipserver.NewServer()
 	twirpHandler := rpc.NewUniversalPaperclipsServer(server, nil)
 
-	log.Fatal(http.listenAndServe(":6666", twirpHandler))
+	log.Fatal(http.ListenAndServe(":6666", twirpHandler))
 }
