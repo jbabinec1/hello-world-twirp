@@ -8,7 +8,7 @@ import (
  
 	"github.com/jbabinec1/hello-world-twirp/paperclipserver"
 	//"github.com/jbabinec1/hello-world-twirp/pkg/rpc"
-	"github.com/jbabinec1/hello-world-twirp/pkg"
+	"github.com/jbabinec1/hello-world-twirp/rpc"
 
 )
 

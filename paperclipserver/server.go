@@ -3,7 +3,7 @@ package paperclipserver
 import (
     "context"
 
-    pb "github.com/jbabinec1/hello-world-twirp/pkg"
+    pb "github.com/jbabinec1/hello-world-twirp/rpc"
 )
 
 // Server implements the UniversalPaperclips service
