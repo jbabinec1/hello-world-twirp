@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("Starting server on :6666")
+	fmt.Printf("Starting Universal Paperclip Service on :6666")
 
 	server := paperclipserver.NewServer()
 	twirpHandler := rpc.NewUniversalPaperclipsServer(server, nil)
