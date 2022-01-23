@@ -818,7 +818,7 @@ func twirpErrorFromIntermediary(status int, msg string, bodyOrLocation string) t
 	var code twirp.ErrorCode
 	if isHTTPRedirect(status) { // 3xx
 		code = twirp.Internal
-	} else {
+	} else { 
 		switch status {
 		case 400: // Bad Request
 			code = twirp.Internal
